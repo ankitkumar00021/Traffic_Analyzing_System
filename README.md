@@ -57,11 +57,3 @@ Key validation figures (sample):
 3. Heuristic rules or secondary models determine violations and junction events.
 4. Results are written to `output.json` and consumed by the dashboard for visualization.
 
-## For Final Submission (what to replace)
-This starter pipeline uses placeholder heuristics for some violations. For a production-quality submission, replace heuristics with trained models using official Indian datasets (MoRTH, NCRB, IRAD) and document the training data and weights under `models/`.
-
-## Need help?
-- Want me to integrate training scripts, add model weights, or capture dashboard screenshots for the report? Say the word and I'll do the next step.
-
----
-Generated README — updated to be clear, friendly, and submission-ready.
