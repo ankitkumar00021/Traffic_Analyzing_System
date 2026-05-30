@@ -1,0 +1,49 @@
+{
+  "video": "sample_dashcam.mp4",
+  "processed_frames": 120,
+  "duration_seconds": 18.75,
+  "vehicle_counts": {
+    "2W": 84,
+    "LMV": 42,
+    "HMV": 12,
+    "Others": 7
+  },
+  "violations": {
+    "helmet_less": 5,
+    "wrong_side": 3,
+    "signal_jumping": 2,
+    "mobile_phone": 4,
+    "triple_riding": 1
+  },
+  "events": [
+    {
+      "time": 2.4,
+      "type": "Helmet-less Riding",
+      "detail": "2W without helmet label detected"
+    },
+    {
+      "time": 4.8,
+      "type": "Wrong-side Driving",
+      "detail": "Vehicle motion indicates wrong-side direction"
+    },
+    {
+      "time": 6.3,
+      "type": "Mobile Phone Usage",
+      "detail": "Phone detected near driver"
+    }
+  ],
+  "junctions": [
+    {
+      "time": 10.0,
+      "junction": "T-junction"
+    },
+    {
+      "time": 14.2,
+      "junction": "4-way"
+    }
+  ],
+  "statistics": {
+    "helmet_suspect_frames": 5,
+    "mobile_suspect_frames": 4
+  }
+}
